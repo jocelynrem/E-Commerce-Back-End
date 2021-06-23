@@ -31,10 +31,6 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     category_id: {
       type: DataTypes.INTEGER,
       references: {
